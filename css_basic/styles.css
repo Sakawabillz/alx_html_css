@@ -34,3 +34,10 @@ header, footer {
   padding: 1rem;
   text-align: center;
 }
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  padding-right: 1rem;
+  color: #FFD700; /* gold */
+}
