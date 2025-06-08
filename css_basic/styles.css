@@ -5,7 +5,17 @@ body {
   height: 100vh; /* full height of viewport */
   margin: 0;
 }
-
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  padding-right: 1rem;
+  color: #FFD700; /* gold */
+}
 /* Make main a horizontal flex container */
 main {
   display: flex;
@@ -19,6 +29,35 @@ article {
   overflow-y: auto;
   padding: 1rem;
 }
+article {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+article h1 {
+  color: #004080;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 0.5rem;
+}
+
+article table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+article table th,
+article table td {
+  padding: 0.5rem;
+  border: 1px solid #39dd5d;
+  text-align: left;
+}
+
+article img {
+  margin-top: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #ccc;
+}
 
 /* Aside takes 1/3 width */
 aside {
@@ -26,7 +65,23 @@ aside {
   overflow-y: auto;
   padding: 1rem;
 }
-
+header a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem;
+}
+header li {
+  margin-right: 1rem;
+}
+header ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+header {
+  background-color: #004080;
+}
 /* Optional spacing and basic styles */
 header, footer {
   background-color: #333;
@@ -34,10 +89,8 @@ header, footer {
   padding: 1rem;
   text-align: center;
 }
-
-.logo {
-  font-size: 2rem;
-  font-weight: bold;
-  padding-right: 1rem;
-  color: #FFD700; /* gold */
+footer {
+  background-color: #333;
+  color: white;
 }
+
